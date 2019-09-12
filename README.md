@@ -16,12 +16,31 @@ How to increase return on stock investment (ROI)
 ## Approaches
 Approaches used in this project include: Linear Regression, Decision Tree, Clustering, Association Rule Mining, Moving Average, Exponential Smoothing, and Artificial neural network(ANN).
 ## Results
-_Identify Industry Performance:_ Decision Tree approach identifies top 5 performing industies - Consumer Discretionary, Industrials, Information Technology, Health Care, and Financials.<br><br>
-_Rank Company Performance:_ Association Rule Mining generates 12 rules. Following each rule, Top 11 performing companies appear most frequently: KLA-Tencor Corp., Michael Kors Holdings, Cintas Corporation, Lam Research, Rockwell Automation Inc., Snap-On Inc., AutoZone Inc., AmerisourceBergen Corp, Home Depot, Symantec Corp., and TransDigm Group.<br><br>
+_Identify Industry Performance:_ Decision Tree approach identifies top 5 performing industies - Consumer Discretionary, Industrials, Information Technology, Health Care, and Financials.<br>
+![top_industries](https://github.com/erinqhu/stock-price-RapidMiner/blob/master/results/top_industries.png)
+
+<br>
+
+_Rank Company Performance:_ Association Rule Mining generates 12 rules. Following each rule, Top 11 performing companies appear most frequently: KLA-Tencor Corp., Michael Kors Holdings, Cintas Corporation, Lam Research, Rockwell Automation Inc., Snap-On Inc., AutoZone Inc., AmerisourceBergen Corp, Home Depot, Symantec Corp., and TransDigm Group.<br>
+![top_companies](https://github.com/erinqhu/stock-price-RapidMiner/blob/master/results/top_companies.png)
+
+<br>
+
 _Predict Stock Prices:_ Moving Average with ANN achieves 64.5% accuracy.
+![top_companies_predict](https://github.com/erinqhu/stock-price-RapidMiner/blob/master/results/top_companies_predict.png)
 ## Conclusion
 According to the five-year return of the top 5 performing industries, the industries to Invest and manage portfolio are suggested as below:<br>
+![top5_industries](https://github.com/erinqhu/stock-price-RapidMiner/blob/master/results/top5_industries.png)
+![5-year-return](https://github.com/erinqhu/stock-price-RapidMiner/blob/master/results/5-year-return.png)
+
+<br>
+
 Companies/Stocks to be considered:<br>
+![top5_companies_invest](https://github.com/erinqhu/stock-price-RapidMiner/blob/master/results/top5_companies_invest.png)
+![LRCX](https://github.com/erinqhu/stock-price-RapidMiner/blob/master/results/LRCX.png)
+![KLAC](https://github.com/erinqhu/stock-price-RapidMiner/blob/master/results/KLAC.png)
+![SYMC](https://github.com/erinqhu/stock-price-RapidMiner/blob/master/results/SYMC.png)
+![HD](https://github.com/erinqhu/stock-price-RapidMiner/blob/master/results/HD.png)
 
 ## Limitation
 * Need to create multiple models to get favorable results.
